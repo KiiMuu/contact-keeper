@@ -1,0 +1,43 @@
+@import '../../helpers/Variables';
+
+.uk-card {
+    &:not(:first-child) {
+        margin-top: 10px;
+    }
+    &:last-child {
+        margin-bottom: 100px;
+    }
+    background: $mainDark;
+    h3 {
+        color: $mainLight !important;
+    }
+    ul {
+        i {
+            color: $mainColor;
+            margin-right: 5px;
+        }
+        li {
+            color: #aaa;
+        }
+    }
+}
+
+form {
+    h3 {
+        font-weight: 900;
+        color: #000;
+    }
+    .uk-input {
+        &:not(:first-child) {
+            margin-bottom: 10px;
+        }
+        border: 1px solid #e2e2e2;
+        &:focus {
+            border: 1px solid $mainColor;
+        }
+    }
+    h5 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
